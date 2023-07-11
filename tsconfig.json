@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ES2022",
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "baseUrl": "src",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true
+  },
+  "include": ["src/**/*", "tests/**/*", "generated/**/*"],
+  "exclude": [
+    "node_modules",
+    "out",
+    "example",
+    "odata2ts.config.ts",
+    "tests",
+    "dist",
+    "local"
+  ]
+}
